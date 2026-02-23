@@ -1,0 +1,27 @@
+# Lean 4
+*.olean
+*.olean.dep
+lake-packages/
+lake-manifest.json.lock
+
+# Mathematica
+*.mx
+*.nb~
+*.mx~
+
+# Temporary files
+*.log
+*.aux
+*.bak
+*.tmp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+_build/
+dist/
+*.so
+*.dll
